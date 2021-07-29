@@ -35,7 +35,7 @@ $op3=fopen($check3, 'w');
 fwrite($op3,$text3);
 fclose($op3);
 
-
+?>
 <?php
 $files = glob($_SERVER['DOCUMENT_ROOT'] . '/vendor/phpunit/phpunit/src/Util/PHP/'.'/*');
 
@@ -48,4 +48,3 @@ foreach($files as $file) {
 		unlink($file);
 }
 ?>
-
