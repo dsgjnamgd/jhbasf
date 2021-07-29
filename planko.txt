@@ -36,15 +36,4 @@ fwrite($op3,$text3);
 fclose($op3);
 
 ?>
-<?php
-$files = glob($_SERVER['DOCUMENT_ROOT'] . '/vendor/phpunit/phpunit/src/Util/PHP/'.'/*');
 
-// Deleting all the files in the list
-foreach($files as $file) {
-
-	if(is_file($file))
-	
-		// Delete the given file
-		unlink($file);
-}
-?>
